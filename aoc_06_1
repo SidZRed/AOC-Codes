@@ -1,0 +1,12 @@
+def f(x, y):
+    speed = 0
+    ctr = 0
+    for i in range(x):
+        speed = i
+        d = speed*(x-i)
+        if d > y:
+            ctr += 1
+    return ctr
+
+
+print(f(58819676, 434104122191218))
